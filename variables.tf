@@ -18,3 +18,11 @@ variable "desired_count" {
 variable "api_key" {
   description = "datadog api key"
 }
+
+variable "account_id" {
+  description = "datadog account id"
+}
+
+variable "external_id" {
+  description = "datadog external id"
+}
